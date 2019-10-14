@@ -13,6 +13,6 @@ class MathTest extends TestCase
     {
         $math = new Math();
 
-        $this->assertSame(4, $math->plus(4, 4));
+        $this->assertSame(8, $math->plus(4, 4));
     }
 }
